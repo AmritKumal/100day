@@ -68,3 +68,22 @@ Tags :
 If you’re interested start here:https://clg.askmitra.com 
 
 Thank you. 
+
+
+
+
+
+
+#Day1ofClg_askmitra #Clg_askmitra100days
+Good day, everyone. I am Amrit kumal, and I'm participating in the ITSNP X Askmitra 100-days challenge. During this time, I'm learning C++/DSA/OOPs/Web Development.
+I’m excited already. learn more about this program here: https://clg.askmitra.com
+Here's what I learned today.
+DSA : INTRODUCTION OF DSA, DATA STRUCTURE etc.
+WEB DEVELOPMENT : SELECTORS IN CSS
+I've also included links to some of the resources I used if anybody interested can follow along.
+https://www.geeksforgeeks.org/
+https://www.youtube.com/playlist...
+Tags :
+#Clg_askmitra100days #Day1ofClg_askmitra #learningeveryday #growingeveryday
+If you’re interested start here: https://https://clg.askmitra.com
+Thank you.

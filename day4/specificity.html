@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="specificity.css" />
+    <title>specificity</title>
+  </head>
+  <style>
+    .fav {
+      color: blue;
+      font-weight: bolder;
+    }
+    .drinks {
+      font: 800;
+      color: rgb(75, 52, 17);
+    }
+  </style>
+  <body>
+    <ul class="drinks">
+      <li class="fav">cocacola</li>
+      <li>fanta</li>
+      <li>milk</li>
+    </ul>
+
+    <div>
+      <style>
+        body {
+          color: rgb(231, 145, 16);
+        }
+        .c1 a {
+          color: inherit;
+        }
+        .c2 a {
+          color: initial;
+        }
+        .c3 a {
+          color: unset;
+        }
+      </style>
+      <body>
+        <ul>
+          <li class="c1">inherited <a href="">link</a>color</li>
+          <li class="c2">initial <a href="">link</a>color</li>
+          <li class="c3">unset <a href="">link</a>color</li>
+        </ul>
+      </body>
+    </div>
+    <hr />
+
+    <style>
+      .important {
+        color: red !important;
+        font-size: larger;
+        background-color: azure;
+      }
+    </style>
+    <div>
+      <p class="important" style="color: blue">welcome to nepal</p>
+    </div>
+
+    <hr />
+    <style>
+      .box {
+        border: 4px solid rgb(61, 23, 212);
+        width: 250px;
+        height: 150px;
+        font-size: 110%;
+        color: rgb(142, 88, 6) !important;
+        overflow: auto;
+      }
+    </style>
+    <div class="box">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptate
+      aut architecto totam facilis
+      ducafij,iwjioajgojaopjgoj,ajoiwjsegoijaog0jinzijvijnanjpo,oajgweiojgv
+      aoiwjesogj feijoiajega jgojn ijoijwegoka imus amet? At voluptate veniam
+      velit rerum quidem alias debitis facere, similique et cupiditate autem.
+      Ad?
+    </div>
+    <hr />
+
+    <style>
+      .box3 {
+        width: 602px;
+        height: 524px;
+        border: 4px solid gray;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    </style>
+    <div class="box3">
+      <img src="img.jpg" alt="selina" />
+    </div>
+  </body>
+</html>
