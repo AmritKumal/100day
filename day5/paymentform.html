@@ -6,16 +6,17 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title> payment form</title> 
+     <link rel="stylesheet" href="style.css">
      
  </head>
 
  <body>
-    
-     <form action="">
-         <h1>Payment form</h1>
-         <p>required field *</p>
+    <div class="container">
+<form action="">
+         <h1 class="hedding">Payment form</h1>
+         <p></p>
          <h2>Contact information</h2>
-         <p>Name: *<input type="text" name="name" required></p>
+         <p>Name: *<input type="text" name="name" required placeholder="Amrit Kumal"></p>
          <p>
              <fieldset>
              <legend>Gender *</legend>     
@@ -24,25 +25,25 @@
             </p> 
 
         </fieldset>
-        <p>Address:* <textarea name="address" id="address" cols="50" rows="10" required></textarea></p>
-        <p>Email:* <input type="email" name="email" id="email" required></p>
-        <P>Pincode: * <input type="number" name="pin" id="pin" required></P>
+        <p>Address:* <textarea name="address" id="address" cols="50" rows="10" required placeholder="kathmandu, Nepal"></textarea></p>
+        <p>Email:* <input type="email" name="email" id="email" required placeholder="iloveyou3000@gmail.com"></p>
+        <P>Pincode: * <input type="number" name="pin" id="pin" required placeholder="12345"></P>
         <h2>Payment information</h2>
         <p>Card Type: *
             <select name="card_type" id="card_type" required>
                 <option value="">-- a card type--</option>
                 <option value="visa">Visa</option>
-                <option value="mastercard">visa</option>
+                <option value="mastercard">mastercard</option>
             </select>
             
         </p>
         <p>
-            Card Number * <input type="number" name="card_number" id="card_numbeer" required>
+            Card Number * <input type="number" name="card_number" id="card_numbeer" required placeholder="1323-3455-6677-6778">
         </p>
         <P>
             Expiration date *<input type="date" name="exp_date" id="exp_date" required>
         </P>
-        <P>CVV * <input type="password" name="cvv" id="CVV" required></P>
+        <P>CVV * <input type="password" name="cvv" id="CVV" required placeholder="4566"></P>
         <input type="submit" value="pay now">
 
              
@@ -50,6 +51,8 @@
 
 
      </form>
+    </div>
+     
  </body>
  
  </html>
