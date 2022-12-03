@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>photo</title>
+  </head>
+  <style>
+    img {
+      height: 400;
+      width: 700;
+    }
+    .hello {
+      clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 75%,
+        75% 75%,
+        75% 100%,
+        50% 75%,
+        0% 75%
+      );
+    }
+    body {
+      background-color: rgb(140, 236, 178);
+      border: 40px;
+    }
+    div {
+      width: 400px;
+      height: 380px;
+      padding: 30px;
+      border: 12px solid rgba(32, 162, 218, 0.619);
+      background: honeydew;
+      z-index: -1;
+    }
+    .content-box {
+      box-sizing: content-box;
+    }
+    .border-box {
+      box-sizing: border-box;
+    }
+  </style>
+  <body>
+    <img class="hello" src="img.jpg" alt=" img.jpg" />
+
+    <div><div class="box5">boxyfoxy</div></div>
+  </body>
+</html>
