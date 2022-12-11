@@ -1,0 +1,111 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grid</title>
+
+    <style>
+      .container {
+        display: grid;
+        /* grid-template-columns: repeat( autof, minmax(200px, 1fr)); */
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+        grid-gap: 15px;
+        grid-auto-columns: minmax(200px, auto);
+      }
+      .item {
+        background-color: rgb(158, 87, 224);
+        border-radius: 2px;
+        border: 3px rgb(40, 61, 89) solid;
+      }
+      #p1 {
+        background-color: rgb(253, 176, 227);
+        grid-auto-rows: 100px;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 1;
+        grid-column-end: 6;
+        text-align: center;
+        font-size: larger;
+      }
+      #p2 {
+        grid-row-start: 2;
+        grid-row-end: 6;
+        grid-template-rows: 200px;
+        background-color: rgba(15, 180, 180, 0.511);
+      }
+      #p5 {
+        grid-row-start: 1;
+        grid-row-end: 6;
+        background-color: rgb(229, 160, 247);
+      }
+      #p4 {
+        grid-row-start: 6;
+        grid-row-end: 7;
+        grid-column-start: -5;
+        grid-column-end: 6;
+        background-color: rgb(193, 238, 154);
+        text-align: center;
+      }
+      #p3 {
+        grid-row-start: 2;
+        grid-row-end: 6;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        background-image: url("img.jpg");
+        opacity: 6;
+        /* background: image(url= "img.jpg"); */
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(10, 76, 230, 0.678);
+        /* text-align: bottom; */
+        text-emphasis-position: left under;
+        font-size: 300%;
+        color: rgba(255, 25, 0, 0.963);
+      }
+      .img {
+        opacity: 0.5;
+      }
+      .subc-item {
+        border: 2px solid rgb(0, 0, 0);
+        color: rgb(6, 49, 241);
+        text-align: center;
+        text-shadow: 2px 3px 1px rgb(239, 10, 10);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item" id="p1">WELCOME TO HELL...</div>
+      <div class="item" id="p2">
+        plate Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Voluptatum quibusdam, rerum sint quae impedit vero voluptatibus sapiente
+        dolor nisi porro in ducimus ea? Veritatis dignissimos nemo neque
+        provident at consequuntur. 2 Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing
+        elit. Atque suscipit sit error fugit necessitatibus voluptas labore
+        porro incidunt dolor aliquam aperiam libero mollitia neque debitis
+        asperiores, nihil eius assumenda quam! Maxime officiis eligendi iste, ea
+        suscipit commodi quisquam obcaecati quasi adipisci delectus aspernatur,
+        expedita exercitationem totam blanditiis, veritatis tenetur repellat
+        ullam repellendus?
+      </div>
+      <div class="item" id="p3">
+        WHICH COUNTRY WILL LIFT THE WORLD CUP
+        <div class="subc-item">Argentina</div>
+        <div class="subc-item">France</div>
+        <div class="subc-item">Morocco</div>
+        <div class="subc-item">Crotia</div>
+      </div>
+      <div class="item" id="p4">HAVE A NICE DAY</div>
+      <div class="item" id="p5">
+        gkils Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
+        facilis libero tenetur a! Ducimus neque laborum sint vitae, alias ex,
+        veritatis aut illum, esse blanditiis aperiam! Vitae deserunt fuga
+        voluptatum.
+      </div>
+    </div>
+  </body>
+</html>
